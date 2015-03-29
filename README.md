@@ -1,5 +1,8 @@
 # PracticalTest01
 Recap
-Nume: Soare  
+
+Nume: Soare 
+
 Prenume: Ion-Mihai
+
 Grupa: 341C1
