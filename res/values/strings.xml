@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PracticalTest01</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="press_me">Press me</string>
+    <string name="press_me_too">Press me 2</string>
+    <string name="title_activity_practical_test01_secondary">PracticalTest01SecondaryActivity</string>
+	<string name="cancel">cancer</string>
+	<string name="ok">uochiei</string>
+	<string name="number_of_clicks">The buttons have been clicked for ??? times</string>
+	<string name="navigate_to_secondary_activity">Navigate_2_2nd_Act</string>
+</resources>

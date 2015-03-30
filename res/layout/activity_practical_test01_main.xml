@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="ro.pub.cs.systems.pdsd.practicaltest01.PracticalTest01MainActivity"
+    tools:ignore="MergeRootFrame">
+    
+    <Button
+        android:id="@+id/navigate_to_secondary_activity_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:ems="10"       
+        android:text="@string/navigate_to_secondary_activity" />
+
+    <LinearLayout 
+        android:id="@+id/content"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+	    
+	    <EditText
+	    	android:id="@+id/left_edit_text"
+		    android:layout_width="0dp"
+		    android:layout_weight="1"
+		    android:layout_height="wrap_content"
+		    android:saveEnabled="false"
+		    android:enabled="false"
+		    android:inputType="number"
+		    android:ems="5"
+		    android:gravity="center" />
+	     <!-- ems: cate caractere display maximum-->
+	 
+	  <EditText
+		    android:id="@+id/right_edit_text"
+		    android:layout_width="0dp"
+		    android:layout_weight="1"
+		    android:layout_height="wrap_content"
+		    android:saveEnabled="false"
+		    android:enabled="false"   
+		    android:inputType="number"
+		    android:ems="5"       
+		    android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/content2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+		<ScrollView
+		    android:layout_weight="1"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content">
+		    	
+		  	<Button
+			    android:id="@+id/left_button"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:gravity="center"
+			    android:layout_gravity="center"
+			    android:layout_weight="1"
+			    android:background="@color/green"
+			    android:text="@string/press_me" />
+		</ScrollView>
+		<ScrollView
+		    android:layout_weight="1"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content">
+			<Button
+			    android:id="@+id/right_button"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:gravity="center"
+			    android:layout_gravity="center"
+			    android:layout_weight="1"
+			    android:background="@color/red"
+			    android:text="@string/press_me_too" />
+		</ScrollView>
+	 </LinearLayout>
+</LinearLayout>
